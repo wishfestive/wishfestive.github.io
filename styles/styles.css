@@ -4,13 +4,26 @@
     background-color: #00171F !important;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3 {
     font-family: 'Source Serif 4', sans-serif;
+}
+
+h1 {
+    font-size: 3em;
+    color: white;
+}
+
+h4 {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+    font-size: x-large;
 }
 
 p {
     font-family: 'Source Sans Pro', sans-serif;
 }
+
+/* Header stage parallax */
 
 .header-parallax {
     height: 600px;
@@ -18,7 +31,40 @@ p {
     background-position: top center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url(../assets/img/header.png);
+    background-image: url(../assets/img/header_dark.jpg);
     max-width: 100vw;
     width: 100%;
+}
+
+.header-mobile {
+    display: none;
+}
+
+.header-copy {
+    position: relative;
+    text-align: center;
+}
+
+.header-content {
+    padding-top: 40%;
+}
+
+/* Header scroll down button */
+
+@keyframes bounce {
+    0%, 5%, 12.5%, 20%, 25% {transform: translateY(0);} 
+    10% {transform: translateY(-30px);} 
+    15% {transform: translateY(-15px);} 
+ } 
+
+#btn1 {
+    position: absolute;
+    left: 50%;
+    bottom: 4em;
+    margin-left: -2em;
+    -webkit-animation-duration: 4s;
+    animation-duration: 4s;
+    animation-name: bounce;
+    animation-iteration-count: infinite;
+    cursor: pointer;
 }
