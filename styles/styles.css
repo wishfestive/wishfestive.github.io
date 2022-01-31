@@ -46,7 +46,7 @@ p {
 }
 
 .header-content {
-    padding-top: 40%;
+    padding-top: 15vw;
 }
 
 /* Header scroll down button */
@@ -67,4 +67,10 @@ p {
     animation-name: bounce;
     animation-iteration-count: infinite;
     cursor: pointer;
+}
+
+/* Spacer padding */
+
+.spacer {
+    height: 100px;
 }
