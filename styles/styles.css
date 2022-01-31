@@ -1,1 +1,24 @@
 /* Document styles */
+
+.navbar-custom {
+    background-color: #00171F !important;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Source Serif 4', sans-serif;
+}
+
+p {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.header-parallax {
+    height: 600px;
+    background-attachment: fixed;
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../assets/img/header.png);
+    max-width: 100vw;
+    width: 100%;
+}
