@@ -27,40 +27,122 @@ p {
 /* Landing Header */
 
 .landing-header {
-    height: 70vh;
+    height: 60vh;
     width: 100%;
     position: relative;
 }
 
 #background-video {
     width: 100vw;
-    height: 70vh;
+    height: 60vh;
     object-fit: cover;
     z-index: -1;
   }
 
 #header-headline {
-    font-size: 5vw;
-    position: absolute;
+    font-size: 3vw;
     bottom: 6vw;
     left: 5vw;
 }
 
 #header-subhead {
-    font-size: 3vw;
-    position: absolute;
+    font-size: 1vw;
     bottom: 2vw;
     left: 5vw;
     font-family: 'Source Sans Pro', sans-serif;
     color: white;
 }
 
+/* Header-Box */
+
+#header-box {
+    height: 10vh;
+    background-color: #708B75;
+}
+
+span { 
+    font-size: 2vw;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+}
+
+span b { 
+    font-size: 3vw; 
+    font-weight: normal;
+    font-family: 'Source Serif 4', sans-serif;
+    padding-left: 5%;
+    padding-right: 2%;
+}
+
 /* Approach */
 
 #approach {
-    height: 70vh;
+    height: 60vh;
     width: 100%;
-    background-color: blue;
+    background-image: url(../assets/img/brickwall.jpg);
+    background-size: cover;
+}
+
+/* Focus */
+
+#focus {
+    height: 60vh;
+    width: 100%;
+}
+
+.bulletpoint {
+    height: 2vh;
+    display: inline;
+}
+
+.focus-text {
+    display: inline;
+    padding-left: 1vw;
+}
+
+/* Boxes */
+
+#contact-box {
+    background-color: #E7ECEF;
+    height: 45vh;
+    margin-bottom: 3vh;
+    border-radius: 1em;
+}
+
+#book-box {
+    background-color: #175676;
+    height: 20vh;
+    border-radius: 1em;
+}
+
+#faq-box {
+    background-color: #708B75;
+    height: 20vh;
+    border-radius: 1em;
+}
+
+.button-h2 {
+    color: white;
+    padding-top: 2vh;
+    padding-left: 2vw;
+}
+
+.button-h3 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: large;
+    color: white;
+    padding-left: 2vw;
+}
+
+.button-arrow {
+    height: 5vh;
+    padding-left: 2vw;
+}
+
+/* Footer */
+
+#footer-copy {
+    text-align: center;
 }
 
 /* Header scroll down button */
