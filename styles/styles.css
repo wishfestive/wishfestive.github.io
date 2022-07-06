@@ -1,9 +1,5 @@
 /* Document styles */
 
-.navbar-custom {
-    background-color: white !important;
-}
-
 h1, h2, h3 {
     font-family: 'Source Serif 4', sans-serif;
 }
@@ -23,6 +19,58 @@ p {
     font-family: 'Source Sans Pro', sans-serif;
 }
 
+.btn-primary {
+    font-family: 'Source Sans Pro', sans-serif!important;
+    background-color: #708B75;
+    border-color: #708B75;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .btn-primary.open {
+    background-color: white;
+    border-color: white;
+    color: #708B75;
+}
+
+/* Navbar */
+
+.navbar {
+    background-color: white !important;
+}
+
+span.navbar-toggler-icon {
+    color: #708B75!important;
+}
+
+.navbar-btn {
+    background-color: #708B75;
+    border-color: #708B75;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif!important;
+    margin-left: 2vw;
+}
+
+.navbar-btn:hover, .navbar-btn:focus, .navbar-btn:active, .navbar-btn.active, .navbar-btn.open {
+    background-color: white;
+    color: #708B75;
+}
+
+.nav-link {
+    color: black;
+    font-family: 'Source Sans Pro', sans-serif!important;
+}
+
+.nav-link:hover, .nav-link:focus, .nav-link:active, .nav-link.active, .nav-link.open {
+    color: #708B75;
+}
+
+.navbar-toggler {
+    color: #708B75;
+}
+
+#navbar-arrow {
+    height: 2vh;
+    padding-left: 1vw;
+}
 
 /* Landing Header */
 
@@ -104,9 +152,10 @@ span b {
 
 #contact-box {
     background-color: #E7ECEF;
-    height: 45vh;
+    height: 55vh;
     margin-bottom: 3vh;
     border-radius: 1em;
+    padding: 3vh;
 }
 
 #book-box {
@@ -119,6 +168,18 @@ span b {
     background-color: #708B75;
     height: 20vh;
     border-radius: 1em;
+}
+
+.form-label {
+    font-family: 'Source Sans Pro', sans-serif!important;
+}
+
+#exampleFormControlInput1, #exampleFormControlTextarea1 {
+    font-family: 'Source Sans Pro', sans-serif!important;
+}
+
+.contact-h2 {
+    color: black;
 }
 
 .button-h2 {

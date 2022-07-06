@@ -17,11 +17,21 @@
     </head>
     <body>
         <!--Navbar-->
-        <nav class="navbar navbar-custom">
+        <nav class="navbar navbar-expand-lg bg-light">
             <div class="container-fluid">
               <a class="navbar-brand" href="#">
                 <img src="./assets/img/nacif_logo.png" alt="Naçif Psychotherapy Logo" width="" height="34" class="d-inline-block align-text-top">
               </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link" href="#">about</a>
+                  <a class="nav-link" href="#">FAQ</a>
+                </div>
+                <button class="btn btn-outline-success navbar-btn" type="submit">book now<img src="./assets/img/arrow.png" id="navbar-arrow"></button>
+              </div>
             </div>
           </nav>
         <!--Header-->
@@ -124,21 +134,43 @@
         <div id="boxes" class="row justify-content-center align-items-center">
             <div class="col-8">
               <div id="contact-box">
-
+                <h2 class="contact-h2">
+                    contact me
+                </h2>
+                <form action="https://formspree.io/f/xbjwvoqj" method="POST">
+                    <div class="mb-3 row">
+                        <label for="exampleFormControlInput1" class="form-label">your name</label>
+                        <div class="col">
+                            <input name="first name" type="text" class="form-control" placeholder="first name" aria-label="First name">
+                        </div>
+                        <div class="col">
+                          <input name="last name" type="text" class="form-control" placeholder="last name" aria-label="Last name">
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">email address</label>
+                        <input type="email" name="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                      </div>
+                      <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">message</label>
+                        <textarea name="message" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">send message</button>
+                </form>
               </div>
             </div>
         </div>
         <div id="boxes" class="row justify-content-center align-items-center">
             <div class="col-4">
-              <div id="book-box">
-                <h2 class="button-h2">
-                    book now
-                </h2>
-                <h3 class="button-h3">
-                    schedule a session
-                </h3>
-                <img src="./assets/img/arrow.png" class="button-arrow">
-              </div>
+                <div id="book-box">
+                    <h2 class="button-h2">
+                        book now
+                    </h2>
+                    <h3 class="button-h3">
+                        schedule a session
+                    </h3>
+                    <img src="./assets/img/arrow.png" class="button-arrow">
+                </div>
             </div>
             <div class="col-4">
                 <div id="faq-box">
