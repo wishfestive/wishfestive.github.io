@@ -23,6 +23,38 @@ p {
     font-family: 'Source Sans Pro', sans-serif;
 }
 
+
+/* Landing Header */
+
+.landing-header {
+    height: 70vh;
+    width: 100%;
+    position: relative;
+}
+
+#background-video {
+    width: 100vw;
+    height: 70vh;
+    object-fit: cover;
+    z-index: -1;
+  }
+
+#header-headline {
+    font-size: 5vw;
+    position: absolute;
+    bottom: 6vw;
+    left: 5vw;
+}
+
+#header-subhead {
+    font-size: 3vw;
+    position: absolute;
+    bottom: 2vw;
+    left: 5vw;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+}
+
 /* Header stage parallax */
 
 .header-parallax {
