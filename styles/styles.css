@@ -1,5 +1,13 @@
 /* Document styles */
 
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
 h1, h2, h3 {
     font-family: 'Source Serif 4', sans-serif;
 }
@@ -174,7 +182,7 @@ span b {
     font-family: 'Source Sans Pro', sans-serif!important;
 }
 
-#exampleFormControlInput1, #exampleFormControlTextarea1 {
+#exampleFormControlInput1, #exampleFormControlTextarea1, #firstname, #lastname {
     font-family: 'Source Sans Pro', sans-serif!important;
 }
 
