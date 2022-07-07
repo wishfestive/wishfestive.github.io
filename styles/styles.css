@@ -34,7 +34,7 @@ p {
 /* Navbar */
 
 .navbar {
-    background-color: white !important;
+    background-color: white!important;
 }
 
 span.navbar-toggler-icon {
@@ -75,14 +75,14 @@ span.navbar-toggler-icon {
 /* Landing Header */
 
 .landing-header {
-    height: 60vh;
+    height: 80vh;
     width: 100%;
     position: relative;
 }
 
 #background-video {
     width: 100vw;
-    height: 60vh;
+    height: 80vh;
     object-fit: cover;
     z-index: -1;
   }
@@ -104,21 +104,21 @@ span.navbar-toggler-icon {
 /* Header-Box */
 
 #header-box {
-    height: 10vh;
-    background-color: #708B75;
+    height: 8vh;
+    background-color: white;
 }
 
 span { 
-    font-size: 2vw;
+    font-size: 1.5vw;
     font-family: 'Source Sans Pro', sans-serif;
-    color: white;
+    color: #708B75;
 }
 
 span b { 
-    font-size: 3vw; 
+    font-size: 2.5vw; 
     font-weight: normal;
     font-family: 'Source Serif 4', sans-serif;
-    padding-left: 5%;
+    padding-left: 1%;
     padding-right: 2%;
 }
 
@@ -216,8 +216,8 @@ span b {
 
 #btn1 {
     position: absolute;
-    left: 50%;
-    bottom: 4em;
+    left: 98%;
+    bottom: 1em;
     margin-left: -2em;
     -webkit-animation-duration: 4s;
     animation-duration: 4s;
@@ -226,10 +226,15 @@ span b {
     cursor: pointer;
 }
 
-/* Spacer padding */
+/* Spacers */
 
 .spacer {
     height: 100px;
+}
+
+.green-spacer {
+    height: 5px;
+    background-color: #708B75;
 }
 
 .mini-spacer {
