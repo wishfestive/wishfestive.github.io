@@ -168,7 +168,7 @@ span b {
 /* Focus */
 
 #focus {
-    height: 60vh;
+    
 }
 
 .bulletpoint {
@@ -275,4 +275,26 @@ span b {
 
 .gray-bg {
     background-color: lightgrey;
+}
+
+.accordion-button {
+    background-color: #E7ECEF!important;
+    color: #708B75;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #708B75!important;
+  }
+
+.accordion-button:hover, .accordion-button:focus, .accordion-button:active, .accordion-button.active, .accordion-button.open {
+    background-color: #708B75!important;
+    color: white!important;
+}
+
+.accordion-body {
+    font-family: 'Source Sans Pro', sans-serif!important;
+}
+
+#faq-headline {
+    margin-bottom: 5vh;
 }
