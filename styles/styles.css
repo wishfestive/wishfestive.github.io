@@ -134,7 +134,6 @@ span b {
 
 #approach {
     height: 60vh;
-    width: 100%;
     background-image: url(../assets/img/brickwall.jpg);
     background-size: cover;
 }
@@ -143,7 +142,6 @@ span b {
 
 #focus {
     height: 60vh;
-    width: 100%;
 }
 
 .bulletpoint {
