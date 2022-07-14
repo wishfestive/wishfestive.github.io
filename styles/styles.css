@@ -125,6 +125,15 @@ span.navbar-toggler-icon {
     z-index: -1;
   }
 
+@media only screen and (max-width: 600px) {
+    .landing-header {
+        height: 70vh;
+    }
+    #background-video {
+        height: 70vh;
+    }
+}
+
 #header-headline {
     font-size: 3vw;
     bottom: 6vw;
@@ -243,7 +252,7 @@ span.navbar-toggler-icon {
 
 @media only screen and (max-width: 600px) {
     #contact-box {
-        height: 55vh;
+        height: 60vh;
     }
   }
 
