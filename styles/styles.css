@@ -39,6 +39,20 @@ p {
     color: #708B75;
 }
 
+.mobile-image {
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .mobile { 
+        display: none;
+    }
+
+    .mobile-image {
+        display: block;
+    }
+  }
+
 /* Scroll-over */
 
 .under {
