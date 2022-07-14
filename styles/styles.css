@@ -213,6 +213,12 @@ span.navbar-toggler-icon {
     background-size: cover;
 }
 
+@media only screen and (max-width: 600px) {
+    #approach {
+        height: 80vh;
+    }
+  }
+
 /* Focus */
 
 .bulletpoint {
@@ -234,6 +240,12 @@ span.navbar-toggler-icon {
     border-radius: 1em;
     padding: 3vh;
 }
+
+@media only screen and (max-width: 600px) {
+    #contact-box {
+        height: 55vh;
+    }
+  }
 
 #book-box {
     background-color: #175676;
