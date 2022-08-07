@@ -8,7 +8,7 @@ html, body {
     overflow-x: hidden; 
 }
 
-h1, h2, h3 {
+h1, h2, h3, .card-title {
     font-family: 'Source Serif 4', sans-serif;
 }
 
@@ -23,20 +23,34 @@ h4 {
     font-size: x-large;
 }
 
-p {
+p, .card-text {
     font-family: 'Source Sans Pro', sans-serif;
 }
 
 .btn-primary {
     font-family: 'Source Sans Pro', sans-serif!important;
-    background-color: #708B75;
-    border-color: #708B75;
+    background-color: #163c31;
+    border-color: #163c31;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .btn-primary.open {
     background-color: white;
-    border-color: white;
-    color: #708B75;
+    border-color: #163c31;
+    color: #163c31;
+}
+
+.btn-secondary {
+    font-family: 'Source Sans Pro', sans-serif!important;
+    background-color: #163c31;
+    border-color: #163c31;
+    padding: 0.275rem 0.5rem;
+    margin-left: 1rem;
+}
+
+.btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active, .btn-secondary.active, .btn-secondary.open {
+    background-color: white;
+    border-color: #163c31;
+    color: #163c31;
 }
 
 .mobile-image {
@@ -73,6 +87,8 @@ p {
 
 .navbar {
     background-color: white!important;
+    padding-top: 0.2rem!important;
+    padding-bottom: 0.2rem!important;
 }
 
 .custom-toggler .navbar-toggler-icon {
@@ -83,30 +99,17 @@ p {
     border-color: rgb(255,102,203)!important;
   } 
 
-.navbar-btn {
-    background-color: #708B75;
-    border-color: #708B75;
-    color: white;
-    font-family: 'Source Sans Pro', sans-serif!important;
-    margin-left: 2vw;
-}
-
-.navbar-btn:hover, .navbar-btn:focus, .navbar-btn:active, .navbar-btn.active, .navbar-btn.open {
-    background-color: white;
-    color: #708B75;
-}
-
 .nav-link {
     color: black;
     font-family: 'Source Sans Pro', sans-serif!important;
 }
 
 .nav-link:hover, .nav-link:focus, .nav-link:active, .nav-link.active, .nav-link.open {
-    color: #708B75;
+    color: #163c31;
 }
 
 .navbar-toggler {
-    color: #708B75;
+    color: #163c31;
 }
 
 #navbar-arrow {
@@ -115,8 +118,9 @@ p {
 }
 
 #navbar-tagline {
-    font-size: medium!important;
+    font-size: medium;
     text-align: right!important;
+    color: #194c3e;
 }
 
 /* Landing Header */
@@ -168,7 +172,7 @@ p {
     span { 
         font-size: 1.5vw;
         font-family: 'Source Sans Pro', sans-serif;
-        color: #708B75;
+        color: #163c31;
     }
     
     span b { 
@@ -184,7 +188,7 @@ p {
     span { 
         font-size: 3.5vw;
         font-family: 'Source Sans Pro', sans-serif;
-        color: #708B75;
+        color: #163c31;
     }
     
     span b { 
@@ -200,7 +204,7 @@ p {
     span { 
         font-size: 3vw;
         font-family: 'Source Sans Pro', sans-serif;
-        color: #708B75;
+        color: #163c31;
     }
     
     span b { 
@@ -219,14 +223,14 @@ p {
 }
 
 .line {
-    background-color: #708B75;
+    background-color: #163c31;
     height: 1px;
 }
 
 /* Approach */
 
 #approach {
-    height: 90vh;
+    height: 50vh;
     background-image: url(../assets/img/brickwall.jpg);
     background-size: cover;
 }
@@ -251,9 +255,18 @@ p {
 
 /* Boxes */
 
+.card {
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.mini-card {
+    margin-top: 2%!important;
+}
+
 #contact-box {
     background-color: #E7ECEF;
-    height: 76vh;
+    height: 65vh;
     margin-bottom: 3vh;
     border-radius: 1em;
     padding: 3vh;
@@ -261,7 +274,7 @@ p {
 
 @media only screen and (max-width: 600px) {
     #contact-box {
-        height: 60vh;
+        height: 55vh;
     }
   }
 
@@ -272,7 +285,7 @@ p {
 }
 
 #faq-box {
-    background-color: #708B75;
+    background-color: #163c31;
     height: 20vh;
     border-radius: 1em;
 }
@@ -342,7 +355,7 @@ p {
 
 .green-spacer {
     height: 5px;
-    background-color: #708B75;
+    background-color: #163c31;
 }
 
 /* Gray background component */
@@ -353,15 +366,15 @@ p {
 
 .accordion-button {
     background-color: #E7ECEF!important;
-    color: #708B75;
+    color: #163c31;
 }
 
 .accordion-button:not(.collapsed) {
-    color: #708B75!important;
+    color: #163c31!important;
   }
 
 .accordion-button:hover, .accordion-button:focus, .accordion-button:active, .accordion-button.active, .accordion-button.open {
-    background-color: #708B75!important;
+    background-color: #163c31!important;
     color: white!important;
 }
 
