@@ -123,6 +123,10 @@ p, .card-text {
     color: #194c3e;
 }
 
+.button-div {
+    display: flex;
+    align-items: center;
+}
 /* Landing Header */
 
 .landing-header {
@@ -243,6 +247,10 @@ p, .card-text {
 
 /* Focus */
 
+#focus {
+    background-color: white;
+}
+
 .bulletpoint {
     height: 2vh;
     display: inline;
@@ -264,12 +272,25 @@ p, .card-text {
     margin-top: 2%!important;
 }
 
-#contact-box {
+#vpt {
+    width: 50%;
+}
+
+.gray-card {
     background-color: #E7ECEF;
-    height: 65vh;
-    margin-bottom: 3vh;
-    border-radius: 1em;
-    padding: 3vh;
+    border-color: #E7ECEF;
+}
+
+.gold-card {
+    background-color: #BA8512;
+    border-color: #BA8512;
+    color: white;
+}
+
+.green-card {
+    background-color: #163c31;
+    border-color: #163c31;
+    color: white;
 }
 
 @media only screen and (max-width: 600px) {
