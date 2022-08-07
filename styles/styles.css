@@ -107,9 +107,15 @@ p, .card-text {
     }
   }
 
-@media only screen and (min-width: 0px) and (max-width: 450px) {
+@media only screen and (min-width: 401px) and (max-width: 450px) {
     .over { 
         margin-top: -160vh;
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 400px) {
+    .over { 
+        margin-top: -170vh;
     }
 }
 
@@ -271,12 +277,23 @@ p, .card-text {
     padding-bottom: 10vh;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 601px) and (max-width: 800px) {
     #approach {
-        height: 80vh;
+        height: 75vh;
+        padding-top: 2vh;
+        padding-bottom: 2vh;
     }
     #headshot {
-        width: 30%;
+        width: 50%;
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 600px) {
+    #approach {
+        height: 70vh;
+    }
+    #headshot {
+        width: 50%;
     }
   }
 
@@ -298,7 +315,7 @@ p, .card-text {
 
 /* Boxes */
 
-.card {
+.contact-card {
     margin-left: 1%;
     margin-right: 1%;
     background-color: #E7ECEF;
