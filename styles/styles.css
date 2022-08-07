@@ -83,6 +83,36 @@ p, .card-text {
     position: relative;
 }
 
+@media only screen and (min-width: 1001px) and (max-width: 1200px) {
+    .over { 
+        margin-top: -110vh;
+    }
+  }
+
+@media only screen and (min-width: 801px) and (max-width: 1000px) {
+    .over { 
+        margin-top: -130vh;
+    }
+  }
+
+  @media only screen and (min-width: 601px) and (max-width: 800px) {
+    .over { 
+        margin-top: -140vh;
+    }
+  }
+
+@media only screen and (min-width: 451px) and (max-width: 600px) {
+    .over { 
+        margin-top: -150vh;
+    }
+  }
+
+@media only screen and (min-width: 0px) and (max-width: 450px) {
+    .over { 
+        margin-top: -160vh;
+    }
+}
+
 /* Navbar */
 
 .navbar {
@@ -237,11 +267,16 @@ p, .card-text {
     height: 50vh;
     background-image: url(../assets/img/brickwall.jpg);
     background-size: cover;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
 }
 
 @media only screen and (max-width: 600px) {
     #approach {
         height: 80vh;
+    }
+    #headshot {
+        width: 30%;
     }
   }
 
