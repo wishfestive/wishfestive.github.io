@@ -56,6 +56,19 @@ p, .card-text {
     color: #163c31;
 }
 
+.btn-light {
+    font-family: 'Source Sans Pro', sans-serif!important;
+    background-color: white;
+    border-color: white;
+    margin-top: 2rem;
+}
+
+.btn-light:hover, .btn-light:focus, .btn-light:active, .btn-light.active, .btn-light.open {
+    background-color: #163c31;
+    border-color: white;
+    color: white;
+}
+
 .mobile-image {
     display: none;
 }
@@ -422,7 +435,8 @@ h6.process-card {
 }
 
 #vpt {
-    width: 50%;
+    max-width: 150px;
+    margin-bottom: 15px;
 }
 
 #disclaimer {
