@@ -269,29 +269,13 @@ p, .card-text {
 
 /* Approach */
 
-#approach {
-    height: 50vh;
+.approach-card {
     background-image: url(../assets/img/brickwall.jpg);
     background-size: cover;
-    padding-top: 10vh;
-    padding-bottom: 10vh;
+    border: 0px;
 }
 
-@media only screen and (min-width: 601px) and (max-width: 800px) {
-    #approach {
-        height: 75vh;
-        padding-top: 2vh;
-        padding-bottom: 2vh;
-    }
-    #headshot {
-        width: 50%;
-    }
-}
-
-@media only screen and (min-width: 0px) and (max-width: 600px) {
-    #approach {
-        height: 70vh;
-    }
+@media only screen and (min-width: 0px) and (max-width: 800px) {
     #headshot {
         width: 50%;
     }
@@ -411,10 +395,10 @@ p, .card-text {
     background-color: white;
 }
 
-.green-spacer {
-    height: 5px;
-    background-color: #163c31;
+.transparent-spacer {
+    height: 50px;
 }
+
 
 /* Gray background component */
 
