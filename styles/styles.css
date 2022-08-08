@@ -133,6 +133,12 @@ p, .card-text {
     padding-bottom: 0.2rem!important;
 }
 
+.navbar-text {
+    padding-top: 0.3rem!important;
+    padding-bottom: 0.3rem!important;
+    line-height: 1!important;
+}
+
 .custom-toggler .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E")!important;
   }
@@ -297,6 +303,12 @@ p, .card-text {
     color: #163c31;
 }
 
+@media only screen and (max-width: 1000px) {
+    .green-icon { 
+        display: none;
+    }
+}
+
 /* Process */
 
 .process {
@@ -454,6 +466,7 @@ h6.process-card {
 .accordion-button:hover, .accordion-button:focus, .accordion-button:active, .accordion-button.active, .accordion-button.open {
     background-color: #E7ECEF!important;
     color: #163c31!important;
+    box-shadow: none!important;
 }
 
 .accordion-body {
