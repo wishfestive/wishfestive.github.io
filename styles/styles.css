@@ -19,8 +19,11 @@ h1 {
 
 h4 {
     font-family: 'Source Sans Pro', sans-serif;
-    color: white;
-    font-size: x-large;
+    color: black;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: medium;
+    font-weight: bold;
 }
 
 p, .card-text {
