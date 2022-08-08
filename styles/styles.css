@@ -297,6 +297,34 @@ p, .card-text {
     color: #163c31;
 }
 
+/* Process */
+
+.process {
+    background-color: #163c31;
+    color: white;
+    border-radius: 0px;
+    border-width: 0px;
+}
+
+h5.process-card {
+    font-size: 7vh;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bolder;
+    color: #BA8512;
+}
+
+h6.process-card {
+    font-size: larger;
+    margin-top: 10px;
+}
+
+.process-line {
+    color: #BA8512;
+    height: 1.5px!important;
+    width: 60px;
+    margin: auto;
+}
+
 /* Boxes */
 
 .contact-card {
@@ -377,7 +405,7 @@ p, .card-text {
 /* Spacers */
 
 .spacer {
-    height: 100px;
+    height: 50px;
     background-color: white;
 }
 
