@@ -428,6 +428,13 @@ h6.process-card {
     height: 50px;
 }
 
+.gold-line {
+    height: 2px;
+    width: 250px;
+    color: #BA8512;
+    margin: auto;
+    margin-bottom: 15px;
+}
 
 /* Gray background component */
 
