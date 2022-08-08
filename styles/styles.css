@@ -121,7 +121,7 @@ p, .card-text {
 
 @media only screen and (min-width: 0px) and (max-width: 400px) {
     .over { 
-        margin-top: -170vh;
+        margin-top: -168vh;
     }
 }
 
