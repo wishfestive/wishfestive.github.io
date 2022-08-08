@@ -314,6 +314,10 @@ p, .card-text {
     width: 50%;
 }
 
+#disclaimer {
+    font-weight: bold;
+}
+
 @media only screen and (max-width: 600px) {
     #contact-box {
         height: 55vh;
