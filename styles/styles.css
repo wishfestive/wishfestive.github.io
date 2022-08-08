@@ -95,11 +95,17 @@ p, .card-text {
     }
   }
 
-  @media only screen and (min-width: 601px) and (max-width: 800px) {
+@media only screen and (min-width: 801px) and (max-width: 1000px) and (min-height: 1000px) {
+    .over { 
+        margin-top: -160vh;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 800px) {
     .over { 
         margin-top: -140vh;
     }
-  }
+}
 
 @media only screen and (min-width: 451px) and (max-width: 600px) {
     .over { 
@@ -318,24 +324,6 @@ p, .card-text {
     font-weight: bold;
 }
 
-@media only screen and (max-width: 600px) {
-    #contact-box {
-        height: 55vh;
-    }
-  }
-
-#book-box {
-    background-color: #175676;
-    height: 20vh;
-    border-radius: 1em;
-}
-
-#faq-box {
-    background-color: #163c31;
-    height: 20vh;
-    border-radius: 1em;
-}
-
 .form-label {
     font-family: 'Source Sans Pro', sans-serif!important;
 }
@@ -407,21 +395,21 @@ p, .card-text {
 /* Gray background component */
 
 .gray-bg {
-    background-color: lightgrey;
+    background-color: #E7ECEF;
 }
 
 .accordion-button {
-    background-color: #E7ECEF!important;
-    color: #163c31;
+    background-color: #163c31!important;
+    color: white;
 }
 
 .accordion-button:not(.collapsed) {
-    color: #163c31!important;
+    color: white!important;
   }
 
 .accordion-button:hover, .accordion-button:focus, .accordion-button:active, .accordion-button.active, .accordion-button.open {
-    background-color: #163c31!important;
-    color: white!important;
+    background-color: #E7ECEF!important;
+    color: #163c31!important;
 }
 
 .accordion-body {
