@@ -306,6 +306,19 @@ p, .card-text {
     border-width: 0px;
 }
 
+.btn-success, .btn-success:focus, .btn-success:active, .btn-success.active, .btn-success.open {
+    font-size: 7vh;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bolder;
+    color: #BA8512;
+    background-color: #163c31!important;
+    border-color: #163c31!important;
+}
+
+.btn-success:hover {
+    color: #E7ECEF;
+}
+
 h5.process-card {
     font-size: 7vh;
     font-family: 'Source Sans Pro', sans-serif;
