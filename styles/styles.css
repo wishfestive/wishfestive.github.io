@@ -262,17 +262,6 @@ p, .card-text {
     }
   }
 
-/* Bio */
-
-.bio {
-    background-color: white;
-}
-
-.line {
-    background-color: #163c31;
-    height: 1px;
-}
-
 /* Approach */
 
 .approach-card {
@@ -291,6 +280,7 @@ p, .card-text {
 
 #focus {
     background-color: white;
+    padding: 15px;
 }
 
 .bulletpoint {
@@ -301,6 +291,10 @@ p, .card-text {
 .focus-text {
     display: inline;
     padding-left: 1vw;
+}
+
+.green-icon {
+    color: #163c31;
 }
 
 /* Boxes */
