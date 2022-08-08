@@ -302,6 +302,7 @@ p, .card-text {
 .process {
     background-color: #163c31;
     color: white;
+    border-color: #163c31!important;
     border-radius: 0px;
     border-width: 0px;
 }
@@ -313,6 +314,7 @@ p, .card-text {
     color: #BA8512;
     background-color: #163c31!important;
     border-color: #163c31!important;
+    box-shadow: none!important;
 }
 
 .btn-success:hover {
