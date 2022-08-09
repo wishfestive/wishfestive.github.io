@@ -34,12 +34,14 @@ p, .card-text {
     font-family: 'Source Sans Pro', sans-serif!important;
     background-color: #163c31;
     border-color: #163c31;
+    box-shadow: none!important;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .btn-primary.open {
     background-color: white;
     border-color: #163c31;
     color: #163c31;
+    box-shadow: none!important;
 }
 
 .btn-secondary {
@@ -48,12 +50,14 @@ p, .card-text {
     border-color: #163c31;
     padding: 0.275rem 0.5rem;
     margin-left: 1rem;
+    box-shadow: none!important;
 }
 
 .btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active, .btn-secondary.active, .btn-secondary.open {
     background-color: white;
     border-color: #163c31;
     color: #163c31;
+    box-shadow: none!important;
 }
 
 .btn-light {
@@ -61,12 +65,14 @@ p, .card-text {
     background-color: white;
     border-color: white;
     margin-top: 2rem;
+    box-shadow: none!important;
 }
 
 .btn-light:hover, .btn-light:focus, .btn-light:active, .btn-light.active, .btn-light.open {
     background-color: #163c31;
     border-color: white;
     color: white;
+    box-shadow: none!important;
 }
 
 .mobile-image {
@@ -443,7 +449,7 @@ h6.process-card {
     font-weight: bold;
 }
 
-.form-label {
+.form-label, .form-control {
     font-family: 'Source Sans Pro', sans-serif!important;
 }
 
