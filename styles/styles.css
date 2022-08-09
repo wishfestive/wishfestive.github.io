@@ -205,6 +205,10 @@ p, .card-text {
     position: relative;
 }
 
+.no-border {
+    border: 0px;
+}
+
 #background-video {
     width: 100vw;
     height: 80vh;
@@ -347,7 +351,7 @@ p, .card-text {
 
 /* Focus */
 
-#focus {
+.focus {
     background-color: white;
     padding: 15px;
 }
@@ -421,13 +425,13 @@ h6.process-card {
 
 /* Number animation */
 
-#number {
+.number {
     position: relative;
     top: 0;
     transition: top ease 0.5s;
   }
 
-#number:hover {
+.number:hover {
     top: -10px;
   }
 
