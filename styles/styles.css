@@ -382,6 +382,10 @@ p, .card-text {
     border-width: 0px;
 }
 
+.process-head {
+    font-size: large;
+}
+
 .btn-success, .btn-success:focus, .btn-success:active, .btn-success.active, .btn-success.open {
     font-size: 7vh;
     font-family: 'Source Sans Pro', sans-serif;
@@ -459,6 +463,10 @@ h6.process-card {
 
 .green-head {
     color: #163c31;
+}
+
+.smaller-head {
+    font-size: larger;
 }
 
 .button-h2 {
