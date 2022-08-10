@@ -2,7 +2,7 @@
 
 ## Description
 
-This is the source code for a psychotherapy website. It was created using HTML/CSS, Bootstrap, and JavaScript.
+This is the source code for a psychotherapy practice's website. It was created using HTML/CSS, Bootstrap, and JavaScript.
 
 ## Table of contents
 

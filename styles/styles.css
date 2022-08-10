@@ -510,14 +510,26 @@ h6.process-card {
 
 #btn1 {
     position: absolute;
-    left: 98%;
-    bottom: 1em;
+    left: 50%;
+    bottom: -3em;
     margin-left: -2em;
     -webkit-animation-duration: 4s;
     animation-duration: 4s;
     animation-name: bounce;
     animation-iteration-count: infinite;
     cursor: pointer;
+}
+
+@media only screen and (min-width: 1001px) and (max-width: 1200px) {
+    #btn1 { 
+        bottom: -1em;
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 1000px) {
+    #btn1 { 
+        display: none;
+    }
 }
 
 /* Spacers */
