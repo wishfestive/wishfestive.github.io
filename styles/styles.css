@@ -105,43 +105,43 @@ p, .card-text {
     position: relative;
 }
 
-@media only screen and (min-width: 1001px) and (max-width: 1200px) {
+@media only screen and (min-width: 1081px) and (max-width: 1200px) {
     .over { 
         margin-top: -110vh;
     }
   }
 
-@media only screen and (min-width: 801px) and (max-width: 1000px) {
+@media only screen and (min-width: 801px) and (max-width: 1080px) {
     .over { 
         margin-top: -130vh;
     }
   }
 
-@media only screen and (min-width: 801px) and (max-width: 1000px) and (min-height: 1000px) {
+@media only screen and (min-width: 806px) and (max-width: 1000px) and (min-height: 1000px) {
     .over { 
         margin-top: -160vh;
     }
 }
 
-@media only screen and (min-width: 601px) and (max-width: 800px) {
+@media only screen and (min-width: 689px) and (max-width: 805px) {
     .over { 
         margin-top: -140vh;
     }
 }
 
-@media only screen and (min-width: 451px) and (max-width: 600px) {
+@media only screen and (min-width: 557px) and (max-width: 688px) {
     .over { 
         margin-top: -150vh;
     }
   }
 
-@media only screen and (min-width: 401px) and (max-width: 450px) {
+@media only screen and (min-width: 429px) and (max-width: 556px) {
     .over { 
         margin-top: -160vh;
     }
 }
 
-@media only screen and (min-width: 0px) and (max-width: 400px) {
+@media only screen and (min-width: 0px) and (max-width: 428px) {
     .over { 
         margin-top: -168vh;
     }
