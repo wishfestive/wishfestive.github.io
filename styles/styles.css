@@ -388,6 +388,7 @@ p, .card-text {
 
 .process-head {
     font-size: large;
+    margin-top: 15px;
 }
 
 .btn-success, .btn-success:focus, .btn-success:active, .btn-success.active, .btn-success.open {
@@ -453,10 +454,6 @@ h6.process-card {
     margin-bottom: 15px;
 }
 
-#disclaimer {
-    font-weight: bold;
-}
-
 .form-label, .form-control {
     font-family: 'Source Sans Pro', sans-serif!important;
 }
@@ -470,7 +467,7 @@ h6.process-card {
 }
 
 .smaller-head {
-    font-size: larger;
+    font-size: x-large;
 }
 
 .button-h2 {
