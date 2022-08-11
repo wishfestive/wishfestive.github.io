@@ -598,3 +598,7 @@ h6.process-card {
 #faq-headline {
     margin-bottom: 5vh;
 }
+
+.tooltip-inner {
+    background-color: blue;
+}
