@@ -444,6 +444,7 @@ h6.process-card {
     margin-right: 1%;
     background-color: #E7ECEF;
     border-color: #E7ECEF;
+    box-shadow: 1px 1px 1px 1px rgba(1,1,1,0.2);
 }
 
 .mini-card {
