@@ -444,11 +444,12 @@ h6.process-card {
     margin-right: 1%;
     background-color: #E7ECEF;
     border-color: #E7ECEF;
-    box-shadow: 1px 1px 1px 1px rgba(1,1,1,0.2);
+    
+    border-radius: 15px;
 }
 
 .mini-card {
-    margin-top: 2%!important;
+    margin-top: 1.5%!important;
 }
 
 #vpt {
