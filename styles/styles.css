@@ -444,8 +444,7 @@ h6.process-card {
     margin-right: 1%;
     background-color: #E7ECEF;
     border-color: #E7ECEF;
-    
-    border-radius: 15px;
+    border-radius: 10px;
 }
 
 .mini-card {
@@ -558,10 +557,19 @@ h6.process-card {
 
 .gold-line {
     height: 2px;
-    width: 350px;
+    width: 80%;
     color: #BA8512;
     margin: auto;
     margin-bottom: 10px;
+}
+
+.green-line {
+    height: 2px;
+    width: 70%;
+    color: #163c31;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 /* Gray background component */
