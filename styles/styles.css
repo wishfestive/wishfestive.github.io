@@ -506,10 +506,13 @@ h6.process-card {
     padding-left: 2vw;
 }
 
-@media only screen and (max-width: 800px) {
-    #email-pic { 
-        max-width: 100px!important;
-    }
+#email-pic {
+    max-width: 210px;
+}
+
+.email-note {
+    margin-top: 22px;
+    margin-bottom: 0px!important;
 }
 
 /* Footer */
