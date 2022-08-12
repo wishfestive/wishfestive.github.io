@@ -142,9 +142,15 @@ p, .card-text {
     }
 }
 
-@media only screen and (min-width: 0px) and (max-width: 428px) {
+@media only screen and (min-width: 381px) and (max-width: 428px) {
     .over { 
         margin-top: -168vh;
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 380px) {
+    .over { 
+        margin-top: -164vh;
     }
 }
 
