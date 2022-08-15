@@ -25,4 +25,8 @@ $(document).ready(function() {
     
     observer.observe(document.querySelector('.animated-image'));
 
+    $('#bio-collapse-button').on("click", function() {
+      $(this).toggleClass('clicked');
+    });
+
   });

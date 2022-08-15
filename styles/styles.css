@@ -639,3 +639,10 @@ h6.process-card {
 .tooltip-inner {
     background-color: blue;
 }
+
+svg rect {
+    transform:rotate(10deg);
+  }
+  .clicked {
+    transform:rotate(180deg);
+  }
