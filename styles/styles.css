@@ -322,11 +322,24 @@ p, .card-text {
     border: 0px;
 }
 
+.headshot {
+    border-radius: 10px;
+}
+
 @media only screen and (min-width: 0px) and (max-width: 800px) {
     #headshot {
         width: 60%;
     }
   }
+
+/* Education */
+
+.education-card {
+    border: 0px;
+    background-color: #E7ECEF;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
 
 /* Bio pic animation */
 
