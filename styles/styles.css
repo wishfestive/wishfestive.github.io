@@ -329,6 +329,7 @@ p, .card-text {
 @media only screen and (min-width: 0px) and (max-width: 800px) {
     #headshot {
         width: 60%;
+        margin-top: 2rem;
     }
   }
 
