@@ -649,9 +649,8 @@ h6.process-card {
     background-color: blue;
 }
 
-svg rect {
-    transform:rotate(10deg);
-  }
-  .clicked {
-    transform:rotate(180deg);
-  }
+/* Privacy styles */
+
+.privacy {
+    padding: 15px;
+}
