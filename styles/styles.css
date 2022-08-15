@@ -377,7 +377,11 @@ p, .card-text {
     color: #163c31;
 }
 
-@media only screen and (max-width: 1000px) {
+#focus-details {
+    margin-top: 15px;
+}
+
+@media only screen and (min-width: 1000px) {
     .green-icon { 
         display: none;
     }
