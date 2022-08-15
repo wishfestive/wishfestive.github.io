@@ -299,9 +299,22 @@ p, .card-text {
         padding-left: 1%;
         padding-right: 2%;
     }
+
+    #bio-collapse-button {
+        margin-bottom: 15px;
+    }
   }
 
 /* Approach */
+
+.bio {
+    margin-bottom: 0rem!important;
+    display: block;
+}
+
+.hidden-bio {
+    display: none;
+}
 
 .approach-card {
     background-image: url(../assets/img/brickwall.jpg);
@@ -311,7 +324,7 @@ p, .card-text {
 
 @media only screen and (min-width: 0px) and (max-width: 800px) {
     #headshot {
-        width: 50%;
+        width: 60%;
     }
   }
 
