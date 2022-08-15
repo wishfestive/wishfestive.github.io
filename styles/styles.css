@@ -27,8 +27,12 @@ h4 {
     font-weight: bold;
 }
 
-p, .card-text {
+p, .card-text, ul, li {
     font-family: 'Source Sans Pro', sans-serif;
+}
+
+ul {
+    list-style-type: circle;
 }
 
 .btn-primary {
@@ -332,15 +336,6 @@ p, .card-text {
         margin-top: 2rem;
     }
   }
-
-/* Education */
-
-.education-card {
-    border: 0px;
-    background-color: #E7ECEF;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-}
 
 /* Bio pic animation */
 
