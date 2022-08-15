@@ -652,5 +652,5 @@ h6.process-card {
 /* Privacy styles */
 
 .privacy {
-    padding: 15px;
+    padding: 15px!important;
 }
