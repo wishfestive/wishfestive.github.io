@@ -28,4 +28,12 @@ $(document).ready(function() {
       $(this).toggleClass('clicked');
     });
 
+    function hideLoader() { 
+      document.getElementById('loader1').style.display = "none"; 
+    } 
+
+    $("#iframe").on("load", function() {
+      hideLoader();
+    })
+
   });
