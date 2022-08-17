@@ -324,6 +324,12 @@ ul {
     }
 }
 
+@media only screen and (min-width: 650px) and (max-width: 1000px) and (min-height: 1000px) {
+    #loader1 { 
+        top: 15vh;
+    }
+}
+
 @media only screen and (min-width: 400px) and (max-width: 649px) {
     #loader1 { 
         top: 15vh;
