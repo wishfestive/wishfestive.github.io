@@ -19,7 +19,7 @@ h1 {
 }
 
 h4 {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     color: black;
     margin-top: 0;
     margin-bottom: 1rem;
@@ -28,7 +28,13 @@ h4 {
 }
 
 p, .card-text, ul, li {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+}
+
+strong {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
 }
 
 ul {
@@ -36,7 +42,7 @@ ul {
 }
 
 .btn-primary {
-    font-family: 'Source Sans Pro', sans-serif!important;
+    font-family: 'Open Sans', sans-serif!important;
     background-color: #163c31;
     border-color: #163c31;
     box-shadow: none!important;
@@ -50,7 +56,7 @@ ul {
 }
 
 .btn-secondary {
-    font-family: 'Source Sans Pro', sans-serif!important;
+    font-family: 'Open Sans', sans-serif!important;
     background-color: #163c31;
     border-color: #163c31;
     padding: 0.275rem 0.5rem;
@@ -66,7 +72,7 @@ ul {
 }
 
 .btn-light {
-    font-family: 'Source Sans Pro', sans-serif!important;
+    font-family: 'Open Sans', sans-serif!important;
     background-color: white;
     border-color: white;
     margin-top: 2rem;
@@ -77,6 +83,22 @@ ul {
     background-color: #163c31;
     border-color: white;
     color: white;
+    box-shadow: none!important;
+}
+
+.btn-dark {
+    font-family: 'Open Sans', sans-serif!important;
+    color: white;
+    background-color: #163c31;
+    border-color: #163c31;
+    margin-top: 1.5rem;
+    box-shadow: none!important;
+}
+
+.btn-dark:hover, .btn-dark:focus, .btn-dark:active, .btn-dark.active, .btn-dark.open {
+    background-color: white;
+    border-color: #163c31;
+    color: #163c31;
     box-shadow: none!important;
 }
 
@@ -182,7 +204,7 @@ ul {
 
 .nav-link {
     color: black;
-    font-family: 'Source Sans Pro', sans-serif!important;
+    font-family: 'Open Sans', sans-serif!important;
 }
 
 .nav-link:hover, .nav-link:focus, .nav-link:active, .nav-link.active, .nav-link.open {
@@ -246,7 +268,7 @@ ul {
     font-size: 1vw;
     bottom: 2vw;
     left: 5vw;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     color: white;
 }
 
@@ -260,7 +282,7 @@ ul {
 @media only screen and (min-width: 901px) {
     span { 
         font-size: 1.5vw;
-        font-family: 'Source Sans Pro', sans-serif;
+        font-family: 'Open Sans', sans-serif;
         color: #163c31;
     }
     
@@ -276,7 +298,7 @@ ul {
   @media only screen and (min-width: 601px) and (max-width: 900px) {
     span { 
         font-size: 3.5vw;
-        font-family: 'Source Sans Pro', sans-serif;
+        font-family: 'Open Sans', sans-serif;
         color: #163c31;
     }
     
@@ -292,7 +314,7 @@ ul {
    @media only screen and (min-width: 0px) and (max-width: 600px) {
     span { 
         font-size: 3vw;
-        font-family: 'Source Sans Pro', sans-serif;
+        font-family: 'Open Sans', sans-serif;
         color: #163c31;
     }
     
@@ -344,6 +366,30 @@ ul {
     }
 }
 
+/* Intro */
+
+.intro-head {
+    color: white!important;
+}
+
+.intro-card {
+    background-color: #163c31;
+    color: white;
+    border: 0px;
+}
+
+.intro-line {
+    color: white;
+    width: 220px;
+    height: 1.5px;
+}
+
+@media only screen and (max-width: 650px) {
+    .intro-line { 
+        width: 110px;
+    }
+}
+
 /* Approach */
 
 .bio {
@@ -351,13 +397,14 @@ ul {
     display: block;
 }
 
-.hidden-bio {
-    display: none;
+.approach-row {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: white;
 }
 
 .approach-card {
-    background-image: url(../assets/img/brickwall.jpg);
-    background-size: cover;
+    background-color: white;
     border: 0px;
 }
 
@@ -413,6 +460,49 @@ ul {
     to   { opacity: 1; }
 }
 
+/* Education */
+
+.education {
+    background-image: url(../assets/img/brickwall.jpg);
+    background-size: cover;
+    border: 0px;
+    color: black;
+}
+
+.education-icon {
+    margin-bottom: 10px;
+    color: #163c31;
+}
+
+.education-head {
+    font-size: large;
+    margin-top: 15px;
+}
+
+.education-card {
+    background: transparent;
+    border: none;
+}
+
+h5.education-card {
+    font-size: 7vh;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+    color: #BA8512;
+}
+
+h6.education-card {
+    font-size: larger;
+    margin-top: 10px;
+}
+
+.education-line {
+    color: #BA8512;
+    height: 1.5px!important;
+    width: 60px;
+    margin: auto;
+}
+
 /* Focus */
 
 .focus {
@@ -423,6 +513,10 @@ ul {
 .bulletpoint {
     height: 2vh;
     display: inline;
+}
+
+.focus-head {
+    padding-bottom: 15px;
 }
 
 .focus-text {
@@ -461,7 +555,7 @@ ul {
 
 .btn-success, .btn-success:focus, .btn-success:active, .btn-success.active, .btn-success.open {
     font-size: 7vh;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: bolder;
     color: #BA8512;
     background-color: #163c31!important;
@@ -475,7 +569,7 @@ ul {
 
 h5.process-card {
     font-size: 7vh;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: bolder;
     color: #BA8512;
 }
@@ -524,12 +618,13 @@ h6.process-card {
 }
 
 .form-label {
-    font-family: 'Source Sans Pro', sans-serif!important;
+    font-family: 'Open Sans', sans-serif!important;
 }
 
 .form-control {
     box-shadow: 1px 1px 1px 1px rgba(1,1,1,0.2);
-    font-family: 'Source Sans Pro', sans-serif!important;
+    font-family: 'Open Sans', sans-serif!important;
+    font-weight: lighter;
     border: none;
 }
 
@@ -538,7 +633,7 @@ h6.process-card {
 }
 
 #exampleFormControlInput1, #exampleFormControlTextarea1, #firstname, #lastname {
-    font-family: 'Source Sans Pro', sans-serif!important;
+    font-family: 'Open Sans', sans-serif!important;
 }
 
 .green-head {
@@ -556,7 +651,7 @@ h6.process-card {
 }
 
 .button-h3 {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: large;
     color: white;
     padding-left: 2vw;
@@ -626,6 +721,11 @@ h6.process-card {
     height: 50px;
 }
 
+.white-spacer {
+    height: 50px;
+    background-color: white;
+}
+
 .gold-line {
     height: 2px;
     width: 80%;
@@ -673,7 +773,8 @@ h6.process-card {
 }
 
 .accordion-body {
-    font-family: 'Source Sans Pro', sans-serif!important;
+    font-family: 'Open Sans', sans-serif!important;
+    font-weight: lighter;
 }
 
 #faq-headline {
