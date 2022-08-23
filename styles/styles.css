@@ -785,6 +785,12 @@ h6.process-card {
     background-color: blue;
 }
 
+/* Psychology today badge */
+
+.ptb {
+    margin: auto;
+}
+
 /* Privacy styles */
 
 .privacy {
